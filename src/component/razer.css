@@ -1,0 +1,777 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@900&display=swap');
+body{
+    width: 100%;
+    height: 100vh;
+    background: rgb(34,34,34);
+}
+nav{
+    width: 100%;
+    height: 65px;
+    background: rgb(0,0,0);
+    border-bottom: 3px solid rgb(45,140,29);
+    position: fixed;
+    z-index: 1;
+    top:0;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+    position:absolute;
+    left: 120px;
+    top: 10px;
+}
+nav ul li {
+    display: inline-flex;
+}
+nav{
+    display: flex;
+    
+}
+nav ul li a{
+    margin-left: 80px;
+    text-decoration: none;
+    color: rgb(136,136,136);
+}
+nav ul li a:hover{
+    color: white;
+}
+.link{
+    position: absolute;
+    left: 130px;
+}
+.header{
+    background:rgb(85,85,85) ;
+    height: 45px;
+    position: absolute;
+    top:67.5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header p{
+    color:rgb(238,238,238)
+}
+.keyboard{
+    width: 100%;
+    position: absolute;
+    top: 110px;
+    height: 100%;
+}
+.keyboard img{
+    width: 100%;
+    height: 100vh;
+}
+.keyContent{
+    display: flex;
+    justify-content: center;
+    top: 100px;
+    position: relative;
+}
+.keyContent p{
+    font-family: 'Roboto';
+    font-size:50px ;
+    color: rgb(255,255,255);
+    position: absolute;
+    left: 400px;
+    top:13px;
+    font-weight: bolder;
+}
+.keyContent h5{
+    position: absolute;
+    top:90px;
+    color: rgb(255,255,255);
+    font-size: 28px;
+    font-weight: 200;
+}
+.keyContent .h6{
+    position: absolute;
+    top:130px;
+    font-size: 22px;
+    font-weight: 300;
+    left:640px;
+}
+.keyContent .h6 a{
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.icon{
+    color: rgb(68,214,44);
+    position: absolute;
+    left: 115px;
+    top: 6px;
+}
+.keyContent .h5{
+    position: absolute;
+    top:130px;
+    font-size: 22px;
+    font-weight: 300;
+    left: 800px;
+}
+.keyContent .h5 a{
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.icon1{
+    color: rgb(68,214,44);
+    position: absolute;
+    left: 40px;
+    top: 6px;
+}
+.keyContent .h5 a:hover,.keyContent .h6 a:hover{
+    text-decoration: underline;
+}
+nav .icon2{
+    color:rgb(136,136,136);
+    position: absolute;
+    top:18px;
+    left:73em;
+}
+.razer-kit{
+    width: 100%;
+    position: absolute;
+    top:915px;
+}
+.razer-kit img{
+    width: 100%;
+    height: 85vh;
+
+}
+.keyContent-1{
+    display: flex;
+    justify-content: center;
+    top:900px;
+    position: relative;
+}
+.keyContent-1 p{
+    font-family: 'Roboto';
+    font-size:50px ;
+    color: rgb(255,255,255);
+    position: absolute;
+    left: 570px;
+    top:13px;
+    font-weight: bolder;
+}
+.keyContent-1 h5{
+    position: absolute;
+    top:90px;
+    color: rgb(255,255,255);
+    font-size: 28px;
+    font-weight: 200;
+}
+.keyContent-1 .h6{
+    position: absolute;
+    top:130px;
+    font-size: 22px;
+    font-weight: 300;
+    left:640px;
+}
+.keyContent-1 .h6 a{
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.icon{
+    color: rgb(68,214,44);
+    position: absolute;
+    left: 115px;
+    top: 6px;
+}
+.keyContent-1 .h5{
+    position: absolute;
+    top:130px;
+    font-size: 22px;
+    font-weight: 300;
+    left: 800px;
+}
+.keyContent-1 .h5 a{
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.icon1{
+    color: rgb(68,214,44);
+    position: absolute;
+    left: 40px;
+    top: 6px;
+}
+.keyContent-1 .h5 a:hover,.keyContent-1 .h6 a:hover{
+    text-decoration: underline;
+}
+.school img{
+    width: 100%;
+    height: 100vh;
+}
+.school{
+    display: flex;
+    justify-content: center;
+    top: 97em;
+    position: relative;
+}
+.keyContent-2{
+    display: flex;
+    justify-content: center;
+    top:760px;
+    position: relative;
+}
+.keyContent-2 p{
+    font-family: 'Roboto';
+    font-size:50px ;
+    color: rgb(255,255,255);
+    position: absolute;
+    left: 430px;
+    top:13px;
+    font-weight: bolder;
+}
+.keyContent-2 h5{
+    position: absolute;
+    top:90px;
+    color: rgb(255,255,255);
+    font-size: 28px;
+    font-weight: 200;
+}
+.keyContent-2 .h6{
+    position: absolute;
+    top:130px;
+    font-size: 22px;
+    font-weight: 300;
+    left:640px;
+}
+.keyContent-2 .h6 a{
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.icon{
+    color: rgb(68,214,44);
+    position: absolute;
+    left: 115px;
+    top: 6px;
+}
+.keyContent-2 .h5{
+    position: absolute;
+    top:130px;
+    font-size: 22px;
+    font-weight: 300;
+    left: 800px;
+}
+.keyContent-2 .h5 a{
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.icon1{
+    color: rgb(68,214,44);
+    position: absolute;
+    left: 40px;
+    top: 6px;
+}
+.keyContent-2 .h5 a:hover,.keyContent-2 .h6 a:hover{
+    text-decoration: underline;
+}
+.new{
+    width: 49%;
+    height: 75vh;
+    position: relative;
+    top:96em;
+}
+.new img{
+    width: 100%;
+    height: 75vh;
+}
+.keyContent-3{
+    display: flex;
+
+    top:900px;
+    position: relative;
+
+}
+.keyContent-3 p{
+    font-family: 'Roboto';
+    font-size:40px ;
+    color: rgb(255,255,255);
+    position: absolute;
+    left: 140px;
+    top:25px;
+    font-weight: bolder;
+}
+.keyContent-3 h5{
+    position: absolute;
+    top:90px;
+    color: rgb(255,255,255);
+    font-size: 20px;
+    font-weight: 200;
+    left: 220px;
+}
+.keyContent-3 .h6{
+    position: absolute;
+    top:130px;
+    font-size: 18px;
+    font-weight: 300;
+    left:270px;
+}
+.keyContent-3 .h6 a{
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.keyContent-3 .icon{
+    color: rgb(68,214,44);
+    position: absolute;
+    left: 90px;
+    top: 3px;
+}
+.keyContent-3 .h5{
+    position: absolute;
+    top:130px;
+    font-size: 18px;
+    font-weight: 300;
+    left: 400px;
+}
+.keyContent-3 .h5 a{
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.keyContent-3 .icon1{
+    color: rgb(68,214,44);
+    position: absolute;
+    left: 30px;
+    top: 3px;
+}
+.keyContent-3 .h5 a:hover,.keyContent-3 .h6 a:hover{
+    text-decoration: underline;
+}
+.blade{
+    width: 50%;
+    height: 75vh;
+    position: relative;
+    top:57.7em;
+    float: right;
+}
+.blade img{
+    width: 100%;
+    height: 75vh;
+}
+.keyContent-4{
+    display: flex;
+    right: -800px;
+    top:900px;
+    position: relative;
+
+}
+.keyContent-4 p{
+    font-family: 'Roboto';
+    font-size:40px ;
+    color: rgb(255,255,255);
+    position: absolute;
+    left: 140px;
+    top:25px;
+    font-weight: bolder;
+}
+.keyContent-4 h5{
+    position: absolute;
+    top:150px;
+    color: rgb(255,255,255);
+    font-size: 20px;
+    font-weight: 200;
+    left: 220px;
+}
+.menu-button {
+    display: none; /* Initially hide the menu button */
+  }
+  .footer-outer
+  {
+    position: relative;
+    top:59em;
+    z-index: 10;
+    background:rgb(17,17,17);
+    color: #ddd;
+    display: flex;
+    width: 100%;
+    gap: 50px;
+  }
+  .shop
+  {
+    margin-left: 7%;
+  }
+  .shop h3 , .explore h3 , .support h3 , .company h3 , .socialmedia h3
+  {
+    font-weight: 700;
+  }
+  .shop li , .explore li , .support li , .company li , .socialmedia li
+  {
+    font-weight: 300;
+    padding-top: 10px;
+  }
+ 
+  .forgamer
+  {
+    color:rgb(67,205,34) ;
+  }
+  .lastfooter
+  {
+    position: relative;
+    top: 58em;
+    background:rgb(17,17,17);
+    display: flex;
+    justify-content: center;
+    color: #ddd;
+   
+  }
+  .content1{
+    display: flex;
+    gap: 200px;
+    font-size: small;
+    margin-right: 15%;
+  }
+  .innercontent1
+  {
+    display: flex;
+  }
+  @media (max-width:768px) {
+    nav,.div{
+        width: 100%;
+    }
+    .menu-button , .shop-button {
+      display: block; /* Show the menu button on mobile */
+      cursor: pointer;
+      position: relative;
+      right: 100px;
+      top: 7px;
+      font-size: 35px;
+      color: #fff;
+    }
+  
+    .link ul , .shop ul {
+      display: none; /* Initially hide the navigation links */
+    }
+  
+    .link ul.show , .shop-link.show{
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 50px;
+      left: -130px;
+      width: 200px;
+      background-color:black;
+      border: 1px solid #ccc;
+      padding: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  
+    .link ul.show li ,  .shop-link ul.show{
+      margin: 5px 0;
+      margin-left: -50px;
+    }
+    .header{
+        height: 70px;
+    }
+    .keyboard{
+        top:140px;
+    }
+    .keyboard img{
+        width: 100%;
+        height: 50%;
+    }
+    .keyContent{
+        display: flex;
+        justify-content: center;
+        top: 100px;
+        position: relative;
+        text-align: center;
+    }
+    .keyContent p{
+        font-family: 'Roboto';
+        font-size:25px ;
+        color: rgb(255,255,255);
+        position: absolute;
+        left: 15%;
+        top:40px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .keyContent h5{
+        position: absolute;
+        top:75px;
+        color: rgb(255,255,255);
+        font-size: 15px;
+        font-weight: 200;
+    }
+    .keyContent .h6{
+        position: absolute;
+        top:100px;
+        font-size: 15px;
+        font-weight: 300;
+        left:27%;
+    }
+    .keyContent .h6 a{
+        color: rgb(255,255,255);
+        text-decoration: none;
+    }
+    .icon{
+        color: rgb(68,214,44);
+        position: absolute;
+        left: 75px;
+        top: 0px;
+    }
+    .keyContent .h5{
+        position: absolute;
+        top:100px;
+        font-size: 15px;
+        font-weight: 300;
+        left: 55%;
+    }
+    .keyContent .h5 a{
+        color: rgb(255,255,255);
+        text-decoration: none;
+    }
+    .icon1{
+        color: rgb(68,214,44);
+        position: absolute;
+        left: 25px;
+        top: 0px;
+    }
+    .keyContent .h5 a:hover,.keyContent .h6 a:hover{
+        text-decoration: underline;
+    }
+    .razer-kit{
+        top:510px;
+    }
+    .razer-kit img{
+        width: 100%;
+        height: 300px;
+    }
+    .keyContent-1{
+        display: flex;
+        justify-content: center;
+        top: 440px;
+        position: relative;
+        text-align: center;
+    }
+    .keyContent-1 p{
+        font-family: 'Roboto';
+        font-size:25px ;
+        color: rgb(255,255,255);
+        position: absolute;
+        left: 32%;
+        top:40px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .keyContent-1 h5{
+        position: absolute;
+        top:80px;
+        color: rgb(255,255,255);
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .keyContent-1 .h6{
+        position: absolute;
+        top:90px;
+        font-size: 15px;
+        font-weight: 300;
+        left:29%;
+    }
+    .keyContent-1 .h6 a{
+        color: rgb(255,255,255);
+        text-decoration: none;
+    }
+    .icon{
+        color: rgb(68,214,44);
+        position: absolute;
+        left: 75px;
+        top: 0px;
+    }
+    .keyContent-1 .h5{
+        position: absolute;
+        top:90px;
+        font-size: 15px;
+        font-weight: 300;
+        left: 57%;
+    }
+    .keyContent-1 .h5 a{
+        color: rgb(255,255,255);
+        text-decoration: none;
+    }
+    .icon1{
+        color: rgb(68,214,44);
+        position: absolute;
+        left: 25px;
+        top: 0px;
+    }
+    .keyContent-1 .h5 a:hover,.keyContent-1 .h6 a:hover{
+        text-decoration: underline;
+    }
+    .school{
+        top:776px;
+    }
+    .school img{
+        width: 100%;
+        height: 300px;
+    }
+    .keyContent-2{
+        display: flex;
+        justify-content: center;
+        top: 440px;
+        position: relative;
+        text-align: center;
+    }
+    .keyContent-2 p{
+        font-family: 'Roboto';
+        font-size:25px ;
+        color: rgb(255,255,255);
+        position: absolute;
+        left: 19%;
+        top:30px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .keyContent-2 h5{
+        position: absolute;
+        top:70px;
+        color: rgb(255,255,255);
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .keyContent-2 .h6{
+        position: absolute;
+        top:80px;
+        font-size: 15px;
+        font-weight: 300;
+        left:29%;
+    }
+    .keyContent-2 .h6 a{
+        color: rgb(255,255,255);
+        text-decoration: none;
+    }
+    .icon{
+        color: rgb(68,214,44);
+        position: absolute;
+        left: 75px;
+        top: 0px;
+    }
+    .keyContent-2 .h5{
+        position: absolute;
+        top:80px;
+        font-size: 15px;
+        font-weight: 300;
+        left: 57%;
+    }
+    .keyContent-2 .h5 a{
+        color: rgb(255,255,255);
+        text-decoration: none;
+    }
+    .icon1{
+        color: rgb(68,214,44);
+        position: absolute;
+        left: 25px;
+        top: 0px;
+    }
+    .keyContent-2 .h5 a:hover,.keyContent-2 .h6 a:hover{
+        text-decoration: underline;
+    }
+    .new{
+        top:760px;
+        width: 100%;
+    }
+    .new img{
+        width: 100%;
+        height: 300px;
+    }
+    .keyContent-3{
+        display: flex;
+        justify-content: center;
+        top: 18px;
+        position: relative;
+        text-align: center;
+    }
+    .keyContent-3 p{
+        font-family: 'Roboto';
+        font-size:25px ;
+        color: rgb(255,255,255);
+        position: absolute;
+        left: 22%;
+        top:10px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .keyContent-3 h5{
+        position: absolute;
+        top:50px;
+        color: rgb(255,255,255);
+        font-size: 14px;
+        font-weight: 200;
+        left: 140px;
+    }
+    .keyContent-3 .h6{
+        position: absolute;
+        top:70px;
+        font-size: 15px;
+        font-weight: 300;
+        left:29%;
+    }
+    .keyContent-3 .h6 a{
+        color: rgb(255,255,255);
+        text-decoration: none;
+    }
+    .icon{
+        color: rgb(68,214,44);
+        position: absolute;
+        left: 75px;
+        top: 0px;
+    }
+    .keyContent-3 .h5{
+        position: absolute;
+        top:70px;
+        font-size: 15px;
+        font-weight: 300;
+        left: 57%;
+    }
+    .keyContent-3 .h5 a{
+        color: rgb(255,255,255);
+        text-decoration: none;
+    }
+    .icon1{
+        color: rgb(68,214,44);
+        position: absolute;
+        left: 25px;
+        top: 0px;
+    }
+    .keyContent-3 .h5 a:hover,.keyContent-3 .h6 a:hover{
+        text-decoration: underline;
+    }
+    .blade{
+        top:310px;
+        width: 100%;
+    }
+    .blade img{
+        width: 100%;
+        height: 300px;
+    }
+    .keyContent-4{
+        display: flex;
+        justify-content: center;
+        top: 0px;
+        left: 0px;
+        position: relative;
+       
+    }
+    .keyContent-4 p{
+        display: flex;
+        font-family: 'Roboto';
+        font-size:20px ;
+        color: rgb(255,255,255);
+        position: absolute;
+        left: 110px;
+        top:320px;
+        font-weight: bolder;
+        width: 300px;
+        
+    }
+    .keyContent-4 h5{
+        position: absolute;
+        top:370px;
+        width: 200px;
+        color: rgb(255,255,255);
+        font-size: 14px;
+        font-weight: 200;
+        left: 140px;
+    }
+  }
+  
+  
+  
